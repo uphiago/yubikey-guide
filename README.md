@@ -2,7 +2,10 @@
 
 A practical guide to setting up a YubiKey 5 with OpenPGP subkeys (master key kept offline), FIDO2 2FA and SSH, including USB passthrough to WSL2 with `usbipd-win`.
 
-The guide lives in [`skills/yubikey/SKILL.md`](skills/yubikey/SKILL.md). It's a [Claude Code skill](https://docs.claude.com/en/docs/claude-code/skills) with safety rules, diagnostics and step-by-step procedures, and it reads fine as a plain guide too.
+| File | For |
+|---|---|
+| [`YUBIKEY.md`](YUBIKEY.md) | Humans: full step-by-step guide, backups, troubleshooting, plus a real (masked) setup as an example |
+| [`skills/yubikey/SKILL.md`](skills/yubikey/SKILL.md) | AI agents: a [Claude Code skill](https://docs.claude.com/en/docs/claude-code/skills) with safety rules, diagnostics and procedures |
 
 ## Using the skill
 
